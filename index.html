@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Portfolio</title>
+
+  <!-- We link our html to the Bootstrap CDN -->
+  
+  <style type="text/css">
+    .btn {
+      background-color: red;
+    }
+  </style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<header>
+	<div class="container">
+		
+    <!-- Section 1: Navbar-->
+    	<nav class="navbar navbar-default">
+    		<div class="container-fluid">
+	    		<div class="row">
+
+	        <!-- Designate a navbar heading -->
+	        		<div class="col-md-8 navbar-header">
+		          		<!-- Our brand / logo -->
+		          		<h2>Willie Ching</h2>
+					</div>
+	        <!-- The links of our navbar -->
+	        		<div class="col-md-4 pull-right">
+		        		<ul class="nav navbar-nav navlinks">
+		            		<li><a href="index.html">About</a></li>
+				            <li><a href="portfolio.html">Portfolio</a></li>
+				            <li><a href="contact.html">Contact</a></li>
+				        </ul>
+		        	</div>
+	        	</div>
+        	</div>
+        </nav>
+    </div>
+</header>
+<body>
+
+  <!-- Container Div -->
+  <div class="container main">
+
+    <!-- a Bootstrap row with columns -->
+    <div class="row">
+
+      <!-- At large+ screens takes up half width (6/12) -->
+      <div class="col-md-7 main_info row">
+      	<h3>About Me</h3>
+        <img class="img thumbnail pull-left col-md-4" src="assets/images/bio.jpg" alt="My Face">
+    	<p>Hello everyone! Like the title says, my name is Willie Ching. I was born and raised in Hawaii and just recently moved out here to Utah. Back in Hawaii I was going to School at BYU-Hawaii and graduated last June with a defree in Computer Science. My favorite part in schooling was learning to code for websites and eventually make my own. This is why I joined this bootcamp. To get a springboard into a career in Web Development and to hone my coding skills.
+    	</p><br>
+		<p>As far as my interest...I love sports, especially basketball and football. I played basketball during my time in college. I loved going to the beach, hiking, and going on road trips. Basically anything involving being out in the sun. I also enjoy being lazy from time to time and playing video games.
+		</p>
+      </div>
+		
+      <!-- At large+ screens takes up half width (6/12) -->
+      <div class="col-md-4 col-md-offset-1 contact_info">
+      	<div class="row">
+      	<h3>Connect With Me</h3>
+      		<div class="col-md-4">
+      			<a href="https://www.github.com/willieching11"><img class="img thumbnail center-block" src="assets/images/github_logo.png" alt="GitHub" width="75%"></a>
+      		</div>
+      		<div class="col-md-4">
+      			<a href="https://www.linkedin.com/in/willieching11/"><img class="img thumbnail center-block" alt="LinkedIn" src="assets/images/linkedin_logo.png" width="75%"></a>
+      		</div>
+      		<div class="col-md-4">
+      			<a href="https://stackoverflow.com/users/8083631/willie-ching"><img class="img thumbnail center-block" alt="Stacked" src="assets/images/stacked_logo.png" width="75%"></a>
+      		</div>
+      </div>
+    </div>
+  </div>
+  </div>
+	<footer class="footer">
+		<div class="container">
+			<span class="text">@Copyright 2017 Willie Ching</span> 
+		</div>
+	</footer>
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
